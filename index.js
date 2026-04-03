@@ -6,8 +6,9 @@ let filmes = [
   { id: 1, titulo: "Cidade de Deus", diretor: "Fernando Meirelles", ano: 2002, genero: "Drama" },
   { id: 2, titulo: "Tropa de Elite", diretor: "José Padilha", ano: 2007, genero: "Ação" },
   { id: 3, titulo: "Central do Brasil", diretor: "Walter Salles", ano: 1998, genero: "Drama" },
+  { id: 4, titulo: "O Agente Secreto", diretor: "Kleber Mendonça Filho", ano: 2025, genero: "Suspense"}
 ];
-let proximoId = 4;
+let proximoId = 5;
 
 // GET /filmes — lista todos
 app.get("/filmes", (req, res) => {
